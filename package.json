@@ -3,8 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "16": "^0.0.2",
     "@emotion/react": "^11.0.0",
     "@emotion/styled": "^11.0.0",
+    "@fortawesome/fontawesome-svg-core": "^6.7.2",
+    "@fortawesome/free-solid-svg-icons": "^6.7.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
     "@mui/icons-material": "^5.0.0",
     "@mui/material": "^5.0.0",
     "axios": "^1.7.9",
@@ -13,7 +17,8 @@
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.1.5",
-    "react-scripts": "^5.0.1"
+    "react-scripts": "^5.0.1",
+    "webpack": "^5.98.0"
   },
   "scripts": {
     "start": "react-scripts start",

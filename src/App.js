@@ -8,12 +8,12 @@ import HooksContext from './pages/HooksContext';
 import Login from './pages/Login';
 import HooksReducer from './pages/HookReducer';
 import Calculator from './pages/Calculator';
- 
+import NavBarPractice from './components/navBarPractice';
 
 function App() {
   return (
     <>
-      <Header />
+     <NavBarPractice/>
     </>
   );
 }
@@ -37,4 +37,4 @@ function AppRoute() {
   );
 }
 
-export default AppRoute;
+export default App;

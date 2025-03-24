@@ -1,0 +1,62 @@
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(21, 21, 21, 0.348);
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+    border-radius: 0 0 30px 30px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-title{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:10px;
+    position: absolute;
+    top: 10px;
+    left :20px;
+    color:rgb(245, 237, 237);
+
+}
+.nav-links{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 20px;
+    list-style: none;
+ 
+}
+.nav-links div a {
+    color: white;
+    text-decoration: none;
+    transition: color 1.2s ease;
+}
+.nav-links div a:hover{
+    color: rgb(152, 14, 14);
+}
+.nav-links div a:active{
+    color: rgb(59, 78, 197);
+}
+/* Add responsive styles here if needed, or remove this block */
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-title {
+        position: static;
+        margin-bottom: 10px;
+    }
+    .nav-links {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
